@@ -5,10 +5,10 @@
 [![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/kraken_the_badass)
 
 
-# LEGEND BOT
+# CDJ Bot
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official LEGEND BOT Userbot made by [@LEGENDX22](https://t.me/LEGENDX22) Also join support channel and group :- https://t.me/teamishere Enjoy Your Bot!!💝
+This is the one and only official CDJ BOT Userbot made by [@RoseLoverX](https://t.me/LEGENDX22) Also join support channel and group :- https://t.me/teamishere Enjoy Your Bot!!💝
 [![LEGEND BOT logo](https://telegra.ph/file/97579e24481db3c11962b.jpg)](https://t.me/hellbot_official)
 
 
