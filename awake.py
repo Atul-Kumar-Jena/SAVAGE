@@ -1,5 +1,5 @@
 #Hello guys... Nub here @Kraken_the_badass
-#Pro is @Hellboi_atul. Who never kanged a single plugin...
+. Who never kanged a single plugin...
 """Check if userbot working or not . 
 
 """
@@ -36,8 +36,8 @@ if ALIVE_MESSAGE is None:
    ALIVE_MESSAGE += f"MY BOSS : {DEFAULTUSER} \n\n "
                 
             
-#@command(outgoing=True, pattern="^.hell$")
-@command(outgoing=True, pattern="^.hell$")
+#@command(outgoing=True, pattern="^.awake$")
+@command(outgoing=True, pattern="^.awake$")
 async def amireallyalive(awake):
     """ For .hell command, check if the bot is running.  """
     await awake.delete() 
