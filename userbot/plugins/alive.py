@@ -2,7 +2,7 @@
 import asyncio
 from telethon import events
 from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, "SAVAGE user"
+from userbot import ALIVE_NAME else "SAVAGE user"
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SAVAGE user"
 
