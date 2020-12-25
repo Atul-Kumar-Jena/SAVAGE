@@ -1,4 +1,4 @@
-#code by @legendx22 , If you will change the credits you are the biggest mutherfucked 
+#code by @sameer_795 , If you will change the credits you are the biggest mutherfucked 
 """Update UserBot code
 Syntax: .update"""
 
@@ -16,10 +16,10 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/legendx22/LEGEND-BOT"
-BOT_IS_UP_TO_DATE = "❂LegendBOT is up-to-date!❂"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/sameerpanthi/SAVAGE"
+BOT_IS_UP_TO_DATE = "❂ 丂卂ᐯ卂Ꮆ乇 is up-to-date!❂"
 NEW_BOT_UP_DATE_FOUND = (
-    "**LEGEND BOT  Update Found For** {branch_name}\n"
+    "**丂卂ᐯ卂Ꮆ乇  Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updates !!"
 )
@@ -73,7 +73,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("**﹁﹁Updating LegendBOT** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `«Pulling Updates»` \n『**Thank You For Using LegendBOT !**』")
+        await message.edit("**﹁﹁Updating 丂卂ᐯ卂Ꮆ乇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `«Pulling Updates»` \n『**Thank You For Using 丂卂ᐯ卂Ꮆ乇!**』")
         await asyncio.sleep(5)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -141,7 +141,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("**✇✇Updating LegendBOTt✇✇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `✇Master✇` \n**Status** : `✇Updating & Restarting` \n__You Can Do__ `.alive` __To Check If I am Alive !__✇")
+    await message.edit("**✇✇Updating 丂卂ᐯ卂Ꮆ乇 bot✇✇** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Branch** : `✇Master✇` \n**Status** : ✇Updating & Restarting \nYou Can Do .alive To Check  I am "ZINDA" or not !__✇")
     remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
