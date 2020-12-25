@@ -1,7 +1,7 @@
 {
-  "name": "LEGEND BOT",
-  "description": "The best userbot made by @LEGENDX22. Made with Love And Phone And Hardwork and... Nhi aur kahi se to nhi bana....For Support Join @teamishere ",
-  "logo": "https://telegra.ph/file/a44f1363bddbba84a2b98.jpg",
+  "name": "丂卂ᐯ卂Ꮆ乇",
+  "description": "The best userbot made by @sameer_795. Made with Love And Phone ....For Support Join @savage_support ",
+  "logo": "https://telegra.ph/file/1e9b56b619c74a06341a0.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/legendx22/LEGEND-BOT/",
-  "website": "https://github.com/legendx22/LEGEND-BOT/",
-  "success_url": "https://t.me/teamishere",
+  "repository": "https://github.com/sameerpanthi/SAVAGE/",
+  "website": "https://github.com/sameerpanthi/SAVAGE/",
+  "success_url": "https://t.me/support_savage",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @LEGENDX22.",
+      "description": "Fill your Username like @sameer_795.",
       "value": "",
       "required": false
     },
@@ -49,7 +49,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
+      "value": "https://telegra.ph/file/60c16f8f827b8e0929d3d.mp4",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
