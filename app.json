@@ -30,7 +30,7 @@
     "ALIVE_NAME": {
       "description": "Fill your Username like @sameer_795.",
       "value": "",
-      "required": false
+      "required": true
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
@@ -102,7 +102,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://Hellbot.hellboyop.repl.run/ ",
+      "description": "Get this value by running code on termux ..for code join - @savage_support.",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -111,7 +111,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: HellBoy-OP/HellBot , but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: sameerpanthi/SAVAGE , but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
