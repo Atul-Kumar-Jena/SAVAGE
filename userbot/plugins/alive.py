@@ -26,7 +26,7 @@ pm_caption += "➾ **𝐒𝐎𝐂𝐈𝐀𝐋  **  ➣ [𝐉𝐎𝐈𝐍](https:
 pm_caption += "➾ **𝐂𝐑𝐄𝐀𝐓𝐎𝐑** ➣ [⚡𝐒𝐀𝐌𝐄𝐄𝐑⚡](@SAMEER_795)\n" 
 
 pm_caption += " \n\n"
-pm_caption += "[✨ Đ€ƤŁØ¥ ¥ØỮŘ ŞΔVΔǤ€ 2.0 ✨](https://github.com/sameerpanthi/SAVAGE-2.0)"
+pm_caption += "[✨ Đ€ƤŁØ¥ ¥ØỮŘ ŞΔVΔǤ€ 2.0 ✨](https://github.com/sameerpanthi/SAVAGE)"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
