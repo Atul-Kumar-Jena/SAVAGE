@@ -164,7 +164,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "😎",
       "required": true
     }, 
     "TZ": {
