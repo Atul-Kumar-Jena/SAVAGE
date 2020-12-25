@@ -1,7 +1,7 @@
-# made for hellbot by mayank
-# inspired by @javes05
-# https://t.me/pldhsys/372
-# edited by kraken_the_badass
+# Credit - @sameer_795
+# inspired by LEGEND BOT
+# edited by - @sameer_795
+# sameer 🤟
 # keep credits else gay
 
 from math import ceil
@@ -25,7 +25,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 buttons = paginate_help(current_page_number, CMD_LIST, "helpme")
                 await event.edit("📜Userbot Helper to reveal all the commands📜\n\n🔥This is main menu....🔥", buttons=buttons)
             else:
-                reply_pop_up_alert = "Kya daba rha h bsdk... Jake apna khudka bot bna mera use naa kar....😏 @teamishere"
+                reply_pop_up_alert = "Kya daba rha h ... Jake apna khudka bot bna mera use naa kar....😏 @savage_support"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"open")))
@@ -36,7 +36,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 buttons = paginate_help(current_page_number, CMD_LIST, "helpme")
                 await event.edit("📜Userbot Helper to reveal all the commands📜\n\n🔥You opened the menu again🔥", buttons=buttons)
             else:
-                reply_pop_up_alert = "Kya daba rha h bsdk... Jake apna khudka bot bna mera use naa kar....😏 @teamishere"
+                reply_pop_up_alert = "Kya daba rha h ... Jake apna khudka bot bna mera use naa kar....😏 @savage_support"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
                #https://t.me/pldhsys/372
 
@@ -66,7 +66,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Kya daba rha h bsdk... Jake apna khudka bot bna mera use naa kar....😏 @teamishere"
+            reply_pop_up_alert = "Kya daba rha h ... Jake apna khudka bot bna mera use naa kar....😏 @savage_support"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -86,14 +86,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Kya daba rha h bsdk... Jake apna khudka bot bna mera use naa kar....😏 @teamishere"
+            reply_pop_up_alert = "Kya daba rha h ... Jake apna khudka bot bna mera use naa kar....😏 @savage_support"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             hellbot = custom.Button.inline("🔹 Open Again 🔸", data="open")
-            await event.edit("🚨 Closed Userbot Helper Main menu 🚨", buttons=hellbot)
+            await event.edit("🚨 Closed Userbot Helper Main menu 🚨", buttons=savage)
             
   #https://t.me/pldhsys/372
 
@@ -114,14 +114,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             reply_pop_up_alert = help_string
         reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
-            © LEGENDBOT".format(plugin_name)
+            © SAVAGE BOT".format(plugin_name)
         try:
             #hellbot = [[Button.inline('Go back', 'back')]] 
             if event.query.user_id == bot.uid :
                 hellbot = custom.Button.inline("⚜️ Back To Menu ⚜️", data="back")
                 await event.edit(reply_pop_up_alert, buttons=hellbot)
             else:
-                reply_pop_up_alert = "Kya daba rha h bsdk... Jake apna khudka bot bna mera use naa kar.... @teamishere"
+                reply_pop_up_alert = "Kya daba rha h ... Jake apna khudka bot bna mera use naa kar.... @savage_support"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         except: 
             kraken = "Do .help {} to get the list of commands.".format(plugin_name)
@@ -149,9 +149,9 @@ def paginate_help(page_number, loaded_plugins, prefix):
         pairs = pairs[modulo_page * number_of_rows:number_of_rows * (modulo_page + 1)] + \
             [
             (custom.Button.inline("• 👈 •", data="{}_prev({})".format(prefix, modulo_page)),
-             custom.Button.inline("• 🙏 •", data="close"),
+             custom.Button.inline("• 👻 •", data="close"),
              custom.Button.inline("• 👉 •", data="{}_next({})".format(prefix, modulo_page)))
         ]
     return pairs
 
-#https://t.me/pldhsys/372
+
